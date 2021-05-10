@@ -1,14 +1,18 @@
+body {
+    font-size: 50%;
+    font-weight: 700;
+}
 
-.project__cards {
+.me__cards {
     padding: 4rem;
-  
+
   }
   
   h1 {
     text-align: center;
   }
   
-  .project__cards__container {
+  .me__cards__container {
     display: flex;
     flex-flow: column;
     align-items: center;
@@ -18,24 +22,24 @@
     
   }
   
-  .project__cards__wrapper {
+  .me__cards__wrapper {
     position: relative;
     margin: 50px 0 45px;
   }
   
-  .project__cards__items {
+  .me__cards__items {
     margin-bottom: 24px;
   
   }
   
-  .project__cards__item {
+  .me__cards__item {
     display: flex;
     flex: 1;
     margin: 0 1rem;
     border-radius: 10px;
   }
   
-  .project__cards__item__link {
+  .me__cards__item__link {
     display: flex;
     flex-flow: column;
     width: 100%;
@@ -48,7 +52,7 @@
     background: #fff;
   }
   
-  .project__cards__item__pic-wrap {
+  .me__cards__item__pic-wrap {
     position: relative;
     width: 100%;
     padding-top: 67%;
@@ -60,7 +64,7 @@
     animation-duration: 2s;
   }
   
-  .project__cards__item__pic-wrap::after {
+  .me__cards__item__pic-wrap::after {
     content: attr(data-category);
     position: absolute;
     bottom: 0;
@@ -74,7 +78,7 @@
     box-sizing: border-box;
   }
   
-  .project__cards__item__img {
+  .me__cards__item__img {
     position: absolute;
     top: 0;
     right: 0;
@@ -89,15 +93,15 @@
     transition: all 0.2s linear;
   }
   
-  .project__cards__item__img:hover {
+  .me__cards__item__img:hover {
     transform: scale(1.1);
   }
   
-  .project__cards__item__info {
+  .me__cards__item__info {
     padding: 20px 30px 30px;
   }
   
-  .project__cards__item__text {
+  .me__cards__item__text {
     color: #252e48;
     font-size: 18px;
     line-height: 24px;
@@ -110,13 +114,13 @@
   }
   
   @media only screen and (min-width: 1024px) {
-    .project__cards__items {
+    .me__cards__items {
       display: flex;
     }
   }
   
   @media only screen and (max-width: 1024px) {
-    .project__cards__item {
+    .me__cards__item {
       margin-bottom: 2rem;
     }
   }

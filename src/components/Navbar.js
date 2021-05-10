@@ -53,12 +53,12 @@ function Navbar() {
                         </li>
                         <li className="nav-item">
                             <Link to="/aboutme" className="nav-links" onClick={closeMobileMenu}>
-                                About me
+                                Contact
                             </Link>
                         </li>
 
                     </ul>
-                    {button && <Button buttonStyle="btn--outline">Contact</Button>}
+
                 </div>
             </nav>
         </>

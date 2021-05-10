@@ -1,18 +1,22 @@
-import React from 'react'
-import "../App.css";
-import { Button } from "./Button";
-import "./VideoFile.css";
-import Cards from "../components/Cards";
+import React from 'react';
+import "./Cards.css";
+import CardItem from "./CardItem";
 
-function SkillCard() {
+
+function MeCard() {
     return (
-        <div className="skill-container">  
+        <div className="me-cards">
+            <h1>Contact</h1>
+            <div className="me__cards__container">
+                <body>
+                    Email : starmireu@gmail.com <p>
+                    github: https://github.com/mireu-san</p>
+                </body>
 
-            <Cards />
 
+            </div>
         </div>
-
-    )
+    );
 }
 
-export default SkillCard
+export default MeCard;
