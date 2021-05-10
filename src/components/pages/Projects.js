@@ -6,7 +6,7 @@ import CardProject from "../CardProject";
 function Projects() {
     return (
         <>
-            <h1 className="projects">Projects</h1>
+            <h1 className="projects"></h1>
             <CardProject />
 
         </>
