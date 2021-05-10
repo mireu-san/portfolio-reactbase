@@ -1,35 +1,6 @@
-.me-context, .me-context-body {
-  display: flex;
-  flex-flow: column;
-  align-items: center;
-  max-width: 1120px;
-  width: 90%;
-  margin: 0 auto;
-}
-
-.me-context {
-  text-align: center;
-  font-size: 40px;
-  padding-top: 1%;
-  padding-bottom: 1%;
-}
-
-.me-context-body {
-  text-align: center;
-  font-size: 30px;
-  padding-bottom: 1%;
-  margin-bottom: 24px;
-  background: #fff;
-  
-}
-
-
-
-/* */
-
 .cards {
   padding: 4rem;
-  background: #fff;
+
 }
 
 h1 {
@@ -43,6 +14,7 @@ h1 {
   max-width: 1120px;
   width: 90%;
   margin: 0 auto;
+
 }
 
 .cards__wrapper {
@@ -52,9 +24,8 @@ h1 {
 
 .cards__items {
   margin-bottom: 24px;
+
 }
-
-
 
 .cards__item {
   display: flex;
@@ -73,6 +44,7 @@ h1 {
   border-radius: 10px;
   overflow: hidden;
   text-decoration: none;
+  background: #fff;
 }
 
 .cards__item__pic-wrap {

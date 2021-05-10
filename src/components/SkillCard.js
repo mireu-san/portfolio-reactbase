@@ -7,9 +7,9 @@ import Cards from "../components/Cards";
 function SkillCard() {
     return (
         <div className="skill-container">  
-            <h1>Skills</h1>
+
             <Cards />
-            
+
         </div>
 
     )
