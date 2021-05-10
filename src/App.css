@@ -42,6 +42,15 @@
   font-size: 100px;
 }
 
+.project-cards {
+  background-image: url('../src/components/images/img-5.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}
+
 .AboutMe {
   background-image: url('../src/components/images/img-7.jpg');
   background-position: center;
